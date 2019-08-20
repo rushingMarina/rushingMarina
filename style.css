@@ -1,0 +1,84 @@
+/****************************************************
+        Settings
+*****************************************************
+COLORS: 
+  dark blue: #132743
+  light grey: #407088
+  hot pink:  #ffb5b5
+  light pink: #ffcbcb
+
+****************************************************/
+
+html, body {
+    background-color: #ffcbcb;
+    font-family: 'Press Start 2P', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+
+}
+
+h1, h2, p {
+  color: #132743;
+}
+
+.greet h1, h2 {
+  margin: 5px;
+}
+
+
+
+
+#canvas{
+    /* position: absolute;
+    left: 10%;
+    top: 20%;
+    /* transform: translate(-50%, -50%); */
+   padding: 2rem;
+   /* margin: 1rem;  */
+  }
+
+  .greet {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .cigar img {
+    width: 10rem;
+    margin: 1rem;
+    border-radius: 3rem;
+    box-shadow: 0 8px 6px -6px #132743;
+  }
+
+  .cigar img:hover {
+    cursor: wait;
+  }
+
+  .slova {
+    display: block;
+  }
+
+  .rustext{
+    margin-bottom: 4rem;
+  }
+  
+
+
+
+
+/*******SoundCloud widget*********/
+
+#sc-widget {
+  margin-top: 2rem;
+}
+
+/*******Projects*********/
+
+.projects-container {
+  padding: 2rem;
+}
+
+.project a{
+  text-decoration: none;
+  color: #132743;
+  line-height: 1.5rem;
+}
